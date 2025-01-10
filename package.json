@@ -1,6 +1,6 @@
 {
-  "name": "eventsource-client",
-  "version": "1.1.3",
+  "name": "@journeyworker/eventsource-client",
+  "version": "1.1.4",
   "description": "Modern EventSource client for browsers and Node.js",
   "sideEffects": false,
   "types": "./dist/default.d.ts",
@@ -12,7 +12,7 @@
       "types": "./dist/default.d.ts",
       "source": "./src/default.ts",
       "deno": "./dist/default.esm.js",
-      "bun": "./dist/default.esm.js",
+      "bun": "./src/default.ts",
       "node": {
         "import": "./dist/node.cjs.mjs",
         "require": "./dist/node.js"
@@ -43,7 +43,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rexxars/eventsource-client.git"
+    "url": "git+ssh://git@github.com/journeyworker/eventsource-client.git"
   },
   "keywords": [
     "sse",
@@ -73,6 +73,7 @@
     "@types/sinon": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
+    "ajv": "^8.17.1",
     "esbuild": "^0.20.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
@@ -88,9 +89,9 @@
     "undici": "^6.7.1"
   },
   "bugs": {
-    "url": "https://github.com/rexxars/eventsource-client/issues"
+    "url": "https://github.com/journeyworker/eventsource-client/issues"
   },
-  "homepage": "https://github.com/rexxars/eventsource-client#readme",
+  "homepage": "https://github.com/journeyworker/eventsource-client#readme",
   "prettier": {
     "semi": false,
     "printWidth": 100,
