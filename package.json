@@ -1,6 +1,6 @@
 {
   "name": "@journeyworker/eventsource-client",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Modern EventSource client for browsers and Node.js",
   "sideEffects": false,
   "types": "./dist/default.d.ts",
@@ -12,7 +12,7 @@
       "types": "./dist/default.d.ts",
       "source": "./src/default.ts",
       "deno": "./dist/default.esm.js",
-      "bun": "./src/default.ts",
+      "bun": "./src/default.esm.js",
       "node": {
         "import": "./dist/node.cjs.mjs",
         "require": "./dist/node.js"
